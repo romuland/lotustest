@@ -1,0 +1,25 @@
+'++LotusScript Development Environment:2:5:(Options):0:74
+%REM
+	Library Service
+	Created Sep 16, 2013 by Superman/Superman
+	Description: Comments for Library
+%END REM
+Option Public
+Option Declare
+
+
+
+
+'++LotusScript Development Environment:2:5:(Forward):0:1
+Declare Sub PostMsg(msg As String)
+
+'++LotusScript Development Environment:2:5:(Declarations):0:2
+
+'++LotusScript Development Environment:2:2:PostMsg:5:8
+%REM
+	Sub PostMsg
+	Description: Comments for Sub
+%END REM
+Sub PostMsg(msg As String)
+	MsgBox msg
+End Sub
